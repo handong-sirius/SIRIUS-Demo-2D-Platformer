@@ -1,10 +1,16 @@
 # SIRIUS-Demo-2D-Platformer
 
 ## 📌 개요
+이 프로젝트는 Unity에서 구현한 2D 플랫포머 데모 게임입니다.
+플레이어 이동, 점프, 카메라 추적, 배경 패럴럭스 효과 등 2D 게임에서 자주 사용되는 핵심 기능을 포함하고 있습니다.
 
-이 프로젝트는 Unity 2D 플랫포머 게임에서 사용되는 핵심 스크립트 모음입니다.
-플레이어 이동, 점프, 카메라 추적, 배경 패럴럭스 효과 등을 구현하며,
-각각의 스크립트는 다음과 같은 역할을 수행합니다.
+사용된 주요 스크립트:
+
+플레이어 이동 & 입력: PlatformerCharacter2D.cs, Platformer2DUserControl.cs
+
+카메라 추적: CameraFollow.cs 또는 Camera2DFollow.cs
+
+배경 연출: Parallax_Curtis.cs
 
 ---
 
@@ -108,3 +114,7 @@
 3. **배경**: `Parallax_Curtis`를 배경 오브젝트에 추가
 
 ---
+
+이 리포지토리를 클론하거나 다운로드
+git clone https://github.com/your-username/2D-Platformer-Demo.git
+
